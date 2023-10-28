@@ -24,8 +24,8 @@
 
 ### Links 🔗
 
-- Solution URL: [page]()
-- Live Site URL: [page]()
+- Solution URL: [page](https://www.frontendmentor.io/solutions/build-with-grid-and-flexbox-36y6Bvl7Jr)
+- Live Site URL: [page](https://sivin-wi.github.io/stats-preview-card-component-main/)
 
 ## My process
 
@@ -34,6 +34,7 @@
 - Semantic HTML5 markup
 - Flexbox
 - Media Queries
+- Grid
 
 
 ### What I learned 📕
@@ -41,6 +42,7 @@
 1. Flex Box
 2. Semantic Elements  
 3. Media Queries
+4. Grid
 
 ### Useful resources 💻
 
