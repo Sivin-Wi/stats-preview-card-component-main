@@ -1,0 +1,107 @@
+@media only screen and (min-width:1440px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    @font-face {
+        font-family: 'Inter', 'Lexend Deca';
+        src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'), url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+    }
+
+    body {
+        font-size: 0.9375rem;
+    }
+
+    :root {
+        --spanTextColor: hsl(277, 64%, 61%);
+        --mainParaColor: hsla(0, 0%, 100%, 0.75);
+        --mainHeading-stats: hsl(0, 0%, 100%);
+        --statTextColor: hsla(0, 0%, 100%, 0.6);
+        --mainBgColor: hsl(233, 47%, 7%);
+        --cardBgColor: hsl(244, 38%, 16%);
+    }
+
+
+
+    .containers {
+        height: 100svh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px repeat(2, 1fr) 150px;
+        grid-template-rows: 200px 1fr 200px;
+        grid-auto-flow: row;
+        background-color: var(--mainBgColor);
+    }
+
+    .containers > .containerOne {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        background: linear-gradient(hsla(277, 64%, 61%, 0.5) 100%, hsla(277, 64%, 61%, 0.5) 100%), url("../images/image-header-mobile.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .containers > .containerTwo {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: var(--cardBgColor);
+    }
+
+    .containers > .containerTwo > .subContainer {
+        height: 480px;
+        width: 77%;
+    }
+
+    .containers > .containerTwo > .subContainer > .heading_para {
+        width: 100%;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .containers > .containerTwo > .subContainer > .heading_para > .heading > h2 {
+        color: var(--mainHeading-stats);
+    }
+
+    .containers > .containerTwo > .subContainer > .heading_para > .heading > h2 > .headingText {
+        color: var(--spanTextColor);
+    }
+
+    .containers > .containerTwo > .subContainer > .heading_para > .para > p {
+        line-height: 1.5;
+        color: var(--mainParaColor);
+    }
+
+    .containers > .containerTwo > .subContainer > .rating {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        line-height: 1.5;
+    }
+
+    .containers > .containerTwo > .subContainer > .rating > .containerOne > .number > h3 {
+        color: var(--mainHeading-stats);
+    }
+
+    .containers > .containerTwo > .subContainer > .rating > .containerOne > .para > p {
+        color: var(--statTextColor);
+    }
+}
