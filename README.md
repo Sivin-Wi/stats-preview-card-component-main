@@ -18,7 +18,7 @@
 
 ### Screenshot 📷
 
-![](./screenshot/Screenshot%202023-10-28%20at%2023-08-32%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
+![](./screenshot/Screenshot%202023-10-28%20at%2023-35-16%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
 
 
 
